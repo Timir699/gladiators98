@@ -121,13 +121,15 @@
                     <div class="col-lg-8 col-md-7 col-12 mb-30">
                         <div class="contact-form">
                             <h4>Get In Touch</h4>
-                            <form id="contact-form" action="https://whizthemes.com/mail-php/jaber/contact.php"
-                                method="post">
-                                <input type="text" name="name" placeholder="Name">
-                                <input type="email" name="email" placeholder="Email">
-                                <input type="text" name="phone" name="name" placeholder="Phone">
+                            <form id="contact-form" action="https://formsubmit.co/islam.timir772@gmail.com"
+                                method="POST">
+                                <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+                                <input type="hidden" name="_subject" value="New Email">
+                                <input required type="text" name="name" placeholder="Name">
+                                <input required type="email" name="email" placeholder="Email">
+                                <input required type="text" name="phone" name="name" placeholder="Phone">
                                 <input type="text" name="subject" placeholder="Subject">
-                                <textarea name="message" placeholder="Message"></textarea>
+                                <textarea required name="message" placeholder="Write Your Message"></textarea>
                                 <button type="submit">Send</button>
                             </form>
                         </div>
